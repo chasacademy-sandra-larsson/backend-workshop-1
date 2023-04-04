@@ -23,7 +23,7 @@ Syftet med övningen är att använda Javascript i backend med Node.js genom att
 
 ### Din uppgift
 
-Du ska läsa ett antal tal från en fil, sedan sortera dem, för att sedan skriva de sorterade till en anna fil.
+Du ska läsa ett antal tal från en fil, sedan sortera dem, för att sedan skriva de sorterade till en annan fil.
 
 Använd fs-modulen och funktiorna ```readFile``` och ```writeFile``` för att läsa och skriva till fil. Se [https://nodejs.dev/en/learn/writing-files-with-nodejs/](https://nodejs.dev/en/learn/writing-files-with-nodejs/) 
 
@@ -55,7 +55,7 @@ För denna övning behöver du installera Express och Handlebars lokalt i mappen
 npm install express express-handlebars
 ```
 Du ska skapa en enkel filmsida som listar dina topp 5 filmer. Sidan ska ha en layout med header, main och footer, där header och footer är partials i Handlebars.
-Listan med dina topp 3 filmer ska hämtas från en text-fil och visas på url http://localhost:8000/my-movies.
+Listan med dina topp 3 filmer ska hämtas från en text-fil och visas på url http://localhost:8000/my-movies i main-delen.
 
 Bilder och css-fil ska ligga under ```public``` och hämtas enligt [https://expressjs.com/en/starter/static-files.html](https://expressjs.com/en/starter/static-files.html)
 
