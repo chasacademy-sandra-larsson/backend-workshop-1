@@ -8,6 +8,7 @@
 
 * Skriva Javascript i backend med Node.js 
 * Använda ramverket Express
+* Handlebars som view engine
 
 ### Redovisning:
 * Du redovisar resultatet av övningarna
@@ -34,16 +35,33 @@ Du kör ett skript i Node.js med kommandot (här används alltså ingen browser 
 node din-fil.js
 ```
 
-# 👩🏽‍💻 Övning 2: Enkel funktionalitet med Express.js
+# 👩🏽‍💻 Övning 2: Intro till ramverket Express
 
-Syftet med övningen är att bekanta sig med ramverket Express genom att skapa en webbserver 
-
-### Din uppgift:
-
+För denna övning behöver du installera Express lokalt i mappen:
 
 ```
 npm install express
 ```
+
+Du ska skapa en webbserver med Node.js och Express som tar emot en begäran och skickar ett välkomstmeddelande ("Hello World"). D.v.s när använder besöker http://localhost:8000/ ska meddelandet skrivas ut i browsern.
+
+
+
+# 👩🏽‍💻 Övning 3: Enkel filmsida med Express & Handlebars
+
+För denna övning behöver du installera Express och Handlebars lokalt i mappen:
+
+```
+npm install express express-handlebars
+```
+Du ska skapa en enkel filmsida som listar dina topp 5 filmer. Sidan ska ha en layout med header, main och footer, där header och footer är partials i Handlebars.
+Listan med dina topp 3 filmer ska hämtas från en text-fil och visas på url http://localhost:8000/my-movies.
+
+Bilder och css-fil ska ligga under ```public``` och hämtas enligt [https://expressjs.com/en/starter/static-files.html](https://expressjs.com/en/starter/static-files.html)
+
+Styla enligt egna preferenser.
+
+
 # 💬 Diskutera
 
 Diskutera med en klasskamrat/er. Vad finns det för fördelar att använda Javascript, Node.js och Express. Nackdelar? Sök även på nätet på alternativ på ramverk för serverprogrammering och diskutera dessa.
